@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const AdviceBoxStyled = styled.div`
   background-color: var(--dark-grayish-blue);
-  max-width: 70%;
+  max-width: 60%;
   text-align: center;
   padding: 2rem 4rem;
   color: var(--light-cyan);
@@ -13,18 +13,20 @@ const AdviceBoxStyled = styled.div`
 
     color: var(--neon-green);
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 4px;
     word-spacing: 5px;
   }
   h2 {
     margin-bottom: 15px;
+    font-size: 28px;
   }
   .divider {
     display: inline-block;
     padding: 0;
     margin: 0;
     width: 100%;
+
     margin-top: 20px;
   }
   .dice {
